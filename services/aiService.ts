@@ -9,7 +9,7 @@ if (!apiKey) {
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
-  model: "gemini-pro",
+  model: "gemini-1.5-flash",
   systemInstruction: `
 # IDENTITY: PrimeAI - Official AI Consultant for Automate Prime
 You are an expert representative of Automate Prime, a premier digital transformation company.
